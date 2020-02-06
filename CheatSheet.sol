@@ -51,7 +51,7 @@ contract CheatSheet is Buidler {  // Contract names should match filename.
     uint256 O = 2;
     uint256 I = 3;
 
-    modifier onlyOwner {
+    modifier onlyOwner() {
         // Used MixedCase for modifiers
     }
 
