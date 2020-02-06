@@ -1,5 +1,5 @@
-pragma solidity >=0.4.0 <0.7.0;
-// -*- coding: utf-8 or unicode -*-
+pragma solidity >=0.4.0 <0.7.0;  // Pragma is the first line.
+// -*- coding: utf-8 or ascii -*-
 
 /**
   * This is a multi-line docstring. Paragraphs are separated with blank lines.
@@ -34,7 +34,6 @@ contract Bob {  // Surround top level declarations in with two blank lines.
     function pump() public virtual pure;
     function dump() public virtual pure;
 }
-
 
 
 contract CheatSheet is Buidler {  // Contract names should match filename.
@@ -96,8 +95,12 @@ contract CheatSheet is Buidler {  // Contract names should match filename.
  * B (single uppercase letter)
  * UPPERCASE
  * UPPER_CASE_WITH_UNDERSCORES
+ *     (Constants)
  * CapitalizedWords (or CapWords)
+ *     (Contract and Library Names, Struct Names, Event Names)
  * mixedCase (differs from CapitalizedWords by initial lowercase character!)
+ *     (Function Names, Function Argument Names, Modifier Names,
+ *      Local and State Variable Names)
  * Capitalized_Words_With_Underscores
  */
 
