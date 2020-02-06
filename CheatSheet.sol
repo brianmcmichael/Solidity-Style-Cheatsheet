@@ -6,7 +6,7 @@ pragma solidity >=0.4.0 <0.7.0;  // Pragma is the first line.
   * Lines conform to 79-column limit.
   *
   * Contracts and libraries should be named using the CapWords style.
-  * Notice that his is not cheatsheet.sol
+  * Notice that this is not cheatsheet.sol
   *
   * See https://solidity.readthedocs.io/en/latest/style-guide.html
   */
