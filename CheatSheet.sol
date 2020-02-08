@@ -52,7 +52,7 @@ contract CheatSheet is Buidler {  // Contract names should match filename.
     uint256 I = 3;
 
     modifier onlyOwner() {
-        // Used MixedCase for modifiers
+        // Used mixedCase for modifiers
     }
 
     constructor() public {
